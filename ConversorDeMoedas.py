@@ -11,13 +11,13 @@ while (True):
             dol = float(input('Quanto dinheiro você tem na carteira ? '))
             print('='*48)
             r = dol * 0.20
-            print('Com U$ {} você pode comprar R$ {:.6}'.format(dol, r).replace('.',',')))
+            print('Com U$ {} você pode comprar R$ {:.6}'.format(dol, r).replace('.',','))
 
         case 2:
             real = float(input('Quanto dinheiro você tem na carteira ? '))
             print('='*48)
             dolar = real / 5.07
-            print('Com R$ {} você pode comprar U$ {:.6}'.format(real, dolar).replace('.',',')))
+            print('Com R$ {} você pode comprar U$ {:.6}'.format(real, dolar).replace('.',','))
 
         case _:
 
